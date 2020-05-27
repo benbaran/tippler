@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,19 @@
 		B315DA522472E9F200268199 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B315DA512472E9F200268199 /* Assets.xcassets */; };
 		B315DA552472E9F200268199 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B315DA542472E9F200268199 /* Preview Assets.xcassets */; };
 		B315DA582472E9F200268199 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B315DA562472E9F200268199 /* LaunchScreen.storyboard */; };
+		B315DA612472EA5400268199 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B315DA602472EA5400268199 /* MainView.swift */; };
+		B315DA632472EA6A00268199 /* NoNetworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B315DA622472EA6A00268199 /* NoNetworkView.swift */; };
+		B315DA652472EBD400268199 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B315DA642472EBD400268199 /* LogoView.swift */; };
+		B33E03A2247B29BF0049E708 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33E03A1247B29BF0049E708 /* DataService.swift */; };
+		B33E03A4247EADC20049E708 /* BusinessListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33E03A3247EADC20049E708 /* BusinessListView.swift */; };
+		B33E03A6247EADD00049E708 /* TipListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33E03A5247EADD00049E708 /* TipListView.swift */; };
+		B376E3FC247AC78F005F1DC0 /* SignalRService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B376E3FB247AC78F005F1DC0 /* SignalRService.swift */; };
+		FC3FC7AE6E06E27D02A814FB /* Pods_Tippler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7469D40D56066FD7F5A1617 /* Pods_Tippler.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		52080F22ECECC3BD184037E3 /* Pods-Tippler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tippler.debug.xcconfig"; path = "Target Support Files/Pods-Tippler/Pods-Tippler.debug.xcconfig"; sourceTree = "<group>"; };
+		A7469D40D56066FD7F5A1617 /* Pods_Tippler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tippler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B315DA482472E9EF00268199 /* Tippler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tippler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B315DA4B2472E9EF00268199 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B315DA4D2472E9EF00268199 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +34,14 @@
 		B315DA542472E9F200268199 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B315DA572472E9F200268199 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B315DA592472E9F200268199 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B315DA602472EA5400268199 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		B315DA622472EA6A00268199 /* NoNetworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoNetworkView.swift; sourceTree = "<group>"; };
+		B315DA642472EBD400268199 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		B33E03A1247B29BF0049E708 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		B33E03A3247EADC20049E708 /* BusinessListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessListView.swift; sourceTree = "<group>"; };
+		B33E03A5247EADD00049E708 /* TipListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipListView.swift; sourceTree = "<group>"; };
+		B376E3FB247AC78F005F1DC0 /* SignalRService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalRService.swift; sourceTree = "<group>"; };
+		DE6D4326FF356E2E98D45932 /* Pods-Tippler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tippler.release.xcconfig"; path = "Target Support Files/Pods-Tippler/Pods-Tippler.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC3FC7AE6E06E27D02A814FB /* Pods_Tippler.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +61,8 @@
 			children = (
 				B315DA4A2472E9EF00268199 /* Tippler */,
 				B315DA492472E9EF00268199 /* Products */,
+				F229D2614AD1693BAF389150 /* Pods */,
+				DF2C8DCBD074C04056ACD42C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,9 +77,10 @@
 		B315DA4A2472E9EF00268199 /* Tippler */ = {
 			isa = PBXGroup;
 			children = (
+				B376E3FA247AC77E005F1DC0 /* Services */,
+				B315DA5F2472EA3E00268199 /* Views */,
 				B315DA4B2472E9EF00268199 /* AppDelegate.swift */,
 				B315DA4D2472E9EF00268199 /* SceneDelegate.swift */,
-				B315DA4F2472E9EF00268199 /* ContentView.swift */,
 				B315DA512472E9F200268199 /* Assets.xcassets */,
 				B315DA562472E9F200268199 /* LaunchScreen.storyboard */,
 				B315DA592472E9F200268199 /* Info.plist */,
@@ -75,6 +97,46 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		B315DA5F2472EA3E00268199 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B315DA622472EA6A00268199 /* NoNetworkView.swift */,
+				B315DA4F2472E9EF00268199 /* ContentView.swift */,
+				B315DA602472EA5400268199 /* MainView.swift */,
+				B315DA642472EBD400268199 /* LogoView.swift */,
+				B33E03A3247EADC20049E708 /* BusinessListView.swift */,
+				B33E03A5247EADD00049E708 /* TipListView.swift */,
+			);
+			name = Views;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		B376E3FA247AC77E005F1DC0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B376E3FB247AC78F005F1DC0 /* SignalRService.swift */,
+				B33E03A1247B29BF0049E708 /* DataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		DF2C8DCBD074C04056ACD42C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7469D40D56066FD7F5A1617 /* Pods_Tippler.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F229D2614AD1693BAF389150 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52080F22ECECC3BD184037E3 /* Pods-Tippler.debug.xcconfig */,
+				DE6D4326FF356E2E98D45932 /* Pods-Tippler.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,9 +144,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B315DA5C2472E9F200268199 /* Build configuration list for PBXNativeTarget "Tippler" */;
 			buildPhases = (
+				7EA209CE9DB2A02C50C55F0C /* [CP] Check Pods Manifest.lock */,
 				B315DA442472E9EF00268199 /* Sources */,
 				B315DA452472E9EF00268199 /* Frameworks */,
 				B315DA462472E9EF00268199 /* Resources */,
+				7CFDFEA806103C29B46B6F5C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -141,14 +205,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7CFDFEA806103C29B46B6F5C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tippler/Pods-Tippler-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tippler/Pods-Tippler-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tippler/Pods-Tippler-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EA209CE9DB2A02C50C55F0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tippler-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B315DA442472E9EF00268199 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B315DA4C2472E9EF00268199 /* AppDelegate.swift in Sources */,
+				B315DA652472EBD400268199 /* LogoView.swift in Sources */,
+				B33E03A6247EADD00049E708 /* TipListView.swift in Sources */,
+				B315DA612472EA5400268199 /* MainView.swift in Sources */,
+				B315DA632472EA6A00268199 /* NoNetworkView.swift in Sources */,
 				B315DA4E2472E9EF00268199 /* SceneDelegate.swift in Sources */,
 				B315DA502472E9EF00268199 /* ContentView.swift in Sources */,
+				B376E3FC247AC78F005F1DC0 /* SignalRService.swift in Sources */,
+				B33E03A4247EADC20049E708 /* BusinessListView.swift in Sources */,
+				B33E03A2247B29BF0049E708 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +395,7 @@
 		};
 		B315DA5D2472E9F200268199 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52080F22ECECC3BD184037E3 /* Pods-Tippler.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -289,6 +403,7 @@
 				DEVELOPMENT_TEAM = 6AL74BDQ9V;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Tippler/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,12 +411,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.benbaran.Tippler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		B315DA5E2472E9F200268199 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE6D4326FF356E2E98D45932 /* Pods-Tippler.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -309,6 +425,7 @@
 				DEVELOPMENT_TEAM = 6AL74BDQ9V;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Tippler/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,7 +433,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.benbaran.Tippler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
